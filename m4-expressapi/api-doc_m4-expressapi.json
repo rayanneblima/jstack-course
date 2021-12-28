@@ -1,0 +1,279 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "m4-expressapi",
+  "dateExported": "2021-12-28T12:16:04.670Z",
+  "version": "1.1",
+  "folders": [
+    {
+      "containerId": "",
+      "sortNum": 10000,
+      "name": "Contacts",
+      "_id": "307ebc97-0d45-419f-9f18-68bc05a98ab0",
+      "created": "2021-12-28T11:17:29.446Z"
+    },
+    {
+      "containerId": "",
+      "sortNum": 20000,
+      "name": "Categories",
+      "_id": "e3921845-ef75-4e33-9137-94c2b4195ec5",
+      "created": "2021-12-28T11:17:42.438Z"
+    }
+  ],
+  "requests": [
+    {
+      "containerId": "e3921845-ef75-4e33-9137-94c2b4195ec5",
+      "sortNum": 10000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "List All Categories",
+      "url": "{{base_url}}/categories",
+      "method": "GET",
+      "modified": "2021-12-28T11:18:03.562Z",
+      "created": "2021-12-28T11:17:42.438Z",
+      "_id": "2b913ec2-35ca-4880-9f32-b7ec5f242d01",
+      "params": [],
+      "tests": []
+    },
+    {
+      "containerId": "307ebc97-0d45-419f-9f18-68bc05a98ab0",
+      "sortNum": 10000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "List All Contacts",
+      "url": "{{base_url}}/contacts",
+      "method": "GET",
+      "modified": "2021-12-28T11:17:31.432Z",
+      "created": "2021-12-27T16:55:37.515Z",
+      "_id": "ff76edb9-b003-4417-93ff-2c0ca3ae7b6e",
+      "params": [],
+      "tests": []
+    },
+    {
+      "containerId": "307ebc97-0d45-419f-9f18-68bc05a98ab0",
+      "sortNum": 15000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "List a Contact",
+      "url": "{{base_url}}/contacts/0484a150-def4-44e3-b827-bb1efc564ceb",
+      "method": "GET",
+      "modified": "2021-12-28T11:54:15.610Z",
+      "created": "2021-12-27T17:15:53.612Z",
+      "_id": "87aa9ebd-516e-4059-a25d-381c1ae2007f",
+      "params": [],
+      "tests": []
+    },
+    {
+      "containerId": "e3921845-ef75-4e33-9137-94c2b4195ec5",
+      "sortNum": 15000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "List a Category",
+      "url": "{{base_url}}/categories/92be501e-1fa4-4bb7-a470-4ac604616455",
+      "method": "GET",
+      "modified": "2021-12-28T11:20:43.359Z",
+      "created": "2021-12-28T11:17:42.438Z",
+      "_id": "a68a8574-3178-48cb-9366-ce2553d71e6f",
+      "params": [],
+      "tests": []
+    },
+    {
+      "containerId": "e3921845-ef75-4e33-9137-94c2b4195ec5",
+      "sortNum": 20000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "Create Category",
+      "url": "{{base_url}}/categories",
+      "method": "POST",
+      "modified": "2021-12-28T11:38:02.142Z",
+      "created": "2021-12-28T11:17:42.438Z",
+      "_id": "653f94f2-663c-4b8b-ae0c-22f8f5641761",
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": " {\n    \"name\": \"Favoritos\"\n }",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "containerId": "307ebc97-0d45-419f-9f18-68bc05a98ab0",
+      "sortNum": 20000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "Create Contact",
+      "url": "{{base_url}}/contacts",
+      "method": "POST",
+      "modified": "2021-12-28T11:38:45.967Z",
+      "created": "2021-12-27T17:45:00.825Z",
+      "_id": "7f44bbbc-95ea-4151-bf39-db5f00302d9d",
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"name\": \"Teste \",\n    \"email\": \"rayanneteste@teste.com\",\n    \"phone\": \"3333333333\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "containerId": "e3921845-ef75-4e33-9137-94c2b4195ec5",
+      "sortNum": 30000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "Update Category",
+      "url": "{{base_url}}/categories/92be501e-1fa4-4bb7-a470-4ac6046164",
+      "method": "PUT",
+      "modified": "2021-12-28T11:22:42.894Z",
+      "created": "2021-12-28T11:17:42.438Z",
+      "_id": "2a26b0c8-ce3e-4a00-9efd-bd6b8bb4fa6c",
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"name\": \"Favoritos\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "containerId": "307ebc97-0d45-419f-9f18-68bc05a98ab0",
+      "sortNum": 30000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "Update Contact",
+      "url": "{{base_url}}/contacts/0484a150-def4-44e3-b827-bb1efc564ceb",
+      "method": "PUT",
+      "modified": "2021-12-28T11:38:55.986Z",
+      "created": "2021-12-27T18:16:40.592Z",
+      "_id": "a205cd00-0790-455c-9ee7-05765ec6b1dd",
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n    \"name\": \"Teste\",\n    \"email\": \"rayanneteste@teste.com\",\n    \"phone\": \"1111111111111111\",\n    \"category_id\": \"8fe4961f-a9f8-48ed-9326-02139662930b\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "containerId": "307ebc97-0d45-419f-9f18-68bc05a98ab0",
+      "sortNum": 50000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "Remove a Contact",
+      "url": "{{base_url}}/contacts/af362318-f702-4d98-b40a-8fdb08e02322",
+      "method": "DELETE",
+      "modified": "2021-12-28T11:17:36.439Z",
+      "created": "2021-12-27T17:30:39.827Z",
+      "_id": "33999f7f-496e-4d03-b92f-98a8c39c550e",
+      "params": [],
+      "tests": []
+    },
+    {
+      "containerId": "e3921845-ef75-4e33-9137-94c2b4195ec5",
+      "sortNum": 50000,
+      "headers": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "c991f72b-8f26-41e8-b2e7-c88873389024",
+      "name": "Remove a Category",
+      "url": "{{base_url}}/categories/92be501e-1fa4-4bb7-a470-4ac604616455",
+      "method": "DELETE",
+      "modified": "2021-12-28T11:23:17.321Z",
+      "created": "2021-12-28T11:17:42.438Z",
+      "_id": "c8358087-f796-45b9-a760-a3c79eb21109",
+      "params": [],
+      "tests": []
+    }
+  ],
+  "settings": {
+    "headers": [],
+    "tests": [],
+    "envId": "fd62b8b1-d0d4-4f4b-875a-e82f69ff7326"
+  }
+}
