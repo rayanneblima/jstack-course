@@ -7,11 +7,12 @@
   "author": "Rayanne B. Lima <rayanne_lima2010@hotmail.com.com.br>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "express": "^4.17.2",
-    "uuid": "^8.3.2"
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.7.1"
   },
   "devDependencies": {
     "eslint": "^8.5.0",
